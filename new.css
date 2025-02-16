@@ -184,3 +184,36 @@ body {
     opacity: 0%;
   }
 }
+/* Responsive cho màn hình nhỏ (điện thoại) */
+@media screen and (max-width: 768px) {
+  .animation-box {
+    width: 90%;
+    height: auto;
+  }
+
+  .first-text,
+  .second-text,
+  .third-text,
+  .fourth-text,
+  .fifth-text,
+  .sixth-text,
+  .seth-text {
+    font-size: 1.8rem;
+    left: 5%;
+    top: auto;
+    bottom: auto;
+    transform: none;
+    white-space: normal;
+    text-align: center;
+    width: 90%;
+  }
+
+  .third-text {
+    font-size: 1.5rem;
+    transform: rotate(0deg);
+  }
+
+  .seth-text {
+    font-size: 3rem;
+  }
+}
